@@ -2,7 +2,9 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { VocabItem } from "../types";
 import { v4 as uuidv4 } from 'uuid'; // Simulating uuid if not available, but we'll use a simple random string generator in helper
 
-const genAI = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const genAI = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GOOGLE_API_KEY,
+});
 
 const generateId = () => Math.random().toString(36).substr(2, 9);
 
