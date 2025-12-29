@@ -84,7 +84,7 @@ const Learn: React.FC = () => {
       </div>
       
       <div className="mt-8 text-center text-xs text-gray-400">
-        Tip: Click the card to flip. Click the star to pin to favorites.
+        Tip: Tap the card to flip. Click the star to pin to favorites.
       </div>
     </div>
   );
