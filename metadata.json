@@ -1,0 +1,5 @@
+{
+  "name": "Copy of FlashVocab AI",
+  "description": "A smart flashcard application for learning English vocabulary. Features a learning mode with flip cards, and an Admin dashboard to manage decks via JSON or generate new words using Gemini AI.",
+  "requestFramePermissions": []
+}
