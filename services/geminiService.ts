@@ -49,7 +49,7 @@ export const explainWord = async (word: string): Promise<string> => {
   try {
     const response = await genAI.models.generateContent({
       model: "gemini-3-flash-preview",
-      contents: `Explain the word "${word}" simply in Vietnamese. Include pronunciation (IPA), word type, and usage nuance.`,
+      contents: `Explain the word "${word}" simply in English. Include pronunciation (IPA), word type, and usage nuance.`,
     });
     return response.text || "Could not retrieve explanation.";
   } catch (error) {
