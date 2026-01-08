@@ -29,9 +29,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-2">
              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">
-               FV
+               HB
              </div>
-             <h1 className="text-xl font-bold text-gray-800 hidden sm:block">FlashVocab AI</h1>
+             <h1 className="text-xl font-bold text-gray-800 hidden sm:block">Hẻo Bái FlashVocab AI</h1>
           </div>
           
           <nav className="flex space-x-2">
